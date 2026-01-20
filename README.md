@@ -24,13 +24,13 @@ Specifications\
 
 ## Project Architecture
 
-![Architecure](./docs/data_architecture.png)
+![Architecure](./docs/data_architecture.PNG)
 
 **Bronze Layer:** Stores raw data as-is from the source systems. Data is sourced from CSV Files into SQL Server Database.
 
 **Silver Layer:** This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis. Data intergation at this stage is shown below:
 
-![Intergration](./docs/data_integration.png)
+![Intergration](./docs/data_integration.PNG)
 
 
 **Gold Layer:** Houses business-ready data modeled into a star schema required for reporting and analytics.
